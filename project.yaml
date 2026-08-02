@@ -1,0 +1,67 @@
+# .project metadata for Trickster
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "trickster"
+name: "Trickster"
+description: "Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator"
+type: "project"
+project_lead: "jranson" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#trickster"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2021-03-30T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/852" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/trickstercache/trickster"
+
+website: "https://trickstercache.org"
+
+artwork: "https://landscape.cncf.io/logos/trickster.svg"
+
+adopters:
+  path: "https://github.com/trickstercache/trickster/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "trickstercache/trickster"
+
+
+security:
+  policy:
+    path: "https://github.com/trickstercache/trickster/blob/main/SECURITY.MD"
+  contact:
+    advisory_url: "https://github.com/trickstercache/trickster/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/trickstercache/trickster/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/trickstercache/trickster/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/trickstercache/trickster/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/trickstercache/trickster/blob/main/README.md"
+
+landscape:
+  category: "Observability and Analysis"
+  subcategory: "Observability"
+
+# CLOMonitor Score: 77/100
+# Documentation: 97 | License: 75 | Best Practices: 53 | Security: 68

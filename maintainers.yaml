@@ -1,0 +1,15 @@
+# Maintainer roster for Trickster
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "trickster"
+    org: "trickstercache"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - jranson
+          - crandles
+          - LimitlessEarth
+          - jnichols-git
