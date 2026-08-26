@@ -21,7 +21,7 @@ repositories:
 
 website: "https://trickstercache.org"
 
-artwork: "https://landscape.cncf.io/logos/trickster.svg"
+artwork: "https://trickstercache.org/branding/logos/trickster-vertical.svg"
 
 adopters:
   path: "https://github.com/trickstercache/trickster/blob/main/ADOPTERS.md"
