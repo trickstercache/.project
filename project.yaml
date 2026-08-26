@@ -1,22 +1,20 @@
 # .project metadata for Trickster
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "trickster"
 name: "Trickster"
 description: "Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator"
 type: "project"
-project_lead: "jranson" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead: "jranson"
+slack_channels:
   - name: "#trickster"
     primary: true
 
 maturity_log:
   - phase: "sandbox"
     date: "2021-03-30T00:00:00Z"
-    issue: "https://github.com/cncf/toc/pull/852" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/250"
 
 repositories:
   - "https://github.com/trickstercache/trickster"
@@ -28,11 +26,11 @@ artwork: "https://landscape.cncf.io/logos/trickster.svg"
 adopters:
   path: "https://github.com/trickstercache/trickster/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "trickstercache/trickster"
-
+package_managers:
+  docker:
+    - "trickstercache/trickster"
+    - "ghcr.io/trickstercache/trickster"
+  helm: "https://helm.trickstercache.org"
 
 security:
   policy:
@@ -50,8 +48,8 @@ legal:
   license:
     path: "https://github.com/trickstercache/trickster/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
