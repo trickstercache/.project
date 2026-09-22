@@ -1,4 +1,6 @@
 name: Update Landscape
+permissions:
+  contents: read
 on:
   push:
     branches: [main]
